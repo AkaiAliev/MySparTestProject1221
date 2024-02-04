@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		4572EAA72B6F4D4800F71E37 /* MySparTestProject1221App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAA62B6F4D4800F71E37 /* MySparTestProject1221App.swift */; };
-		4572EAA92B6F4D4800F71E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAA82B6F4D4800F71E37 /* ContentView.swift */; };
+		4572EAA92B6F4D4800F71E37 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAA82B6F4D4800F71E37 /* MainView.swift */; };
 		4572EAAB2B6F4D4900F71E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4572EAAA2B6F4D4900F71E37 /* Assets.xcassets */; };
 		4572EAAE2B6F4D4900F71E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4572EAAD2B6F4D4900F71E37 /* Preview Assets.xcassets */; };
+		4572EAB72B6F503000F71E37 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAB62B6F503000F71E37 /* TabView.swift */; };
+		4572EAB92B6F50D400F71E37 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAB82B6F50D400F71E37 /* CatalogView.swift */; };
+		4572EABB2B6F50DF00F71E37 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EABA2B6F50DF00F71E37 /* BasketView.swift */; };
+		4572EABD2B6F50E700F71E37 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EABC2B6F50E700F71E37 /* ProfileView.swift */; };
+		4572EAC12B6F557E00F71E37 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAC02B6F557E00F71E37 /* ProductsModel.swift */; };
+		4572EAC52B6F5F1900F71E37 /* FeedbackCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAC42B6F5F1900F71E37 /* FeedbackCustomView.swift */; };
+		4572EAC72B6F60A900F71E37 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAC62B6F60A800F71E37 /* FeedbackModel.swift */; };
+		4572EAC92B6F637A00F71E37 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4572EAC82B6F637A00F71E37 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4572EAA32B6F4D4800F71E37 /* MySparTestProject1221.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySparTestProject1221.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4572EAA62B6F4D4800F71E37 /* MySparTestProject1221App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparTestProject1221App.swift; sourceTree = "<group>"; };
-		4572EAA82B6F4D4800F71E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4572EAA82B6F4D4800F71E37 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4572EAAA2B6F4D4900F71E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4572EAAD2B6F4D4900F71E37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4572EAB62B6F503000F71E37 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		4572EAB82B6F50D400F71E37 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		4572EABA2B6F50DF00F71E37 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		4572EABC2B6F50E700F71E37 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4572EAC02B6F557E00F71E37 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		4572EAC42B6F5F1900F71E37 /* FeedbackCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackCustomView.swift; sourceTree = "<group>"; };
+		4572EAC62B6F60A800F71E37 /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
+		4572EAC82B6F637A00F71E37 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,9 @@
 		4572EAA52B6F4D4800F71E37 /* MySparTestProject1221 */ = {
 			isa = PBXGroup;
 			children = (
+				4572EABF2B6F556F00F71E37 /* Models */,
+				4572EABE2B6F50EE00F71E37 /* Views */,
 				4572EAA62B6F4D4800F71E37 /* MySparTestProject1221App.swift */,
-				4572EAA82B6F4D4800F71E37 /* ContentView.swift */,
 				4572EAAA2B6F4D4900F71E37 /* Assets.xcassets */,
 				4572EAAC2B6F4D4900F71E37 /* Preview Content */,
 			);
@@ -65,6 +82,29 @@
 				4572EAAD2B6F4D4900F71E37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4572EABE2B6F50EE00F71E37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4572EAB62B6F503000F71E37 /* TabView.swift */,
+				4572EAB82B6F50D400F71E37 /* CatalogView.swift */,
+				4572EABA2B6F50DF00F71E37 /* BasketView.swift */,
+				4572EABC2B6F50E700F71E37 /* ProfileView.swift */,
+				4572EAA82B6F4D4800F71E37 /* MainView.swift */,
+				4572EAC42B6F5F1900F71E37 /* FeedbackCustomView.swift */,
+				4572EAC82B6F637A00F71E37 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4572EABF2B6F556F00F71E37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4572EAC02B6F557E00F71E37 /* ProductsModel.swift */,
+				4572EAC62B6F60A800F71E37 /* FeedbackModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4572EAA92B6F4D4800F71E37 /* ContentView.swift in Sources */,
+				4572EAC72B6F60A900F71E37 /* FeedbackModel.swift in Sources */,
+				4572EAC12B6F557E00F71E37 /* ProductsModel.swift in Sources */,
+				4572EABB2B6F50DF00F71E37 /* BasketView.swift in Sources */,
+				4572EAA92B6F4D4800F71E37 /* MainView.swift in Sources */,
+				4572EAC92B6F637A00F71E37 /* CustomButton.swift in Sources */,
+				4572EAB72B6F503000F71E37 /* TabView.swift in Sources */,
+				4572EAB92B6F50D400F71E37 /* CatalogView.swift in Sources */,
+				4572EABD2B6F50E700F71E37 /* ProfileView.swift in Sources */,
+				4572EAC52B6F5F1900F71E37 /* FeedbackCustomView.swift in Sources */,
 				4572EAA72B6F4D4800F71E37 /* MySparTestProject1221App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +328,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +336,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Akai-Aliev.MySparTestProject1221";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +370,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Akai-Aliev.MySparTestProject1221";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

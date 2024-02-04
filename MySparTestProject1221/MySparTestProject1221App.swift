@@ -11,7 +11,7 @@ import SwiftUI
 struct MySparTestProject1221App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView(index: 0)
         }
     }
 }
